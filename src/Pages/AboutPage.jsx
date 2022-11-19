@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import MainLayout from '../layouts/MainLayout';
 
 function AboutPage() {
@@ -14,4 +12,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default AboutPage

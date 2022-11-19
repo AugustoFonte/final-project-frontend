@@ -4,8 +4,8 @@ import React from 'react';
 function Footer() {
   return (
     <div>
-      <div className="copyright">
-        Copyright Stand <XXXXXX></XXXXXX>. All Rights Reserved
+      <div className="flex justify-center">
+        Copyright Stand XXXXX. All Rights Reserved
       </div>
     </div>
   );
