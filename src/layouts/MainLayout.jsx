@@ -10,7 +10,9 @@ function MainLayout(props) {
     <div className="MainLayout">
       <Navbar />
       <main>{props.children}</main>
-      <Footer />
+        <div className="fixed bottom-0" >
+        <Footer />
+        </div>
     </div>
   );
 }

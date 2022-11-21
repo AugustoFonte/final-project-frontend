@@ -1,30 +1,24 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className="bg-slate-900">
-      <div className="flex content-flex text-white">
-        
-        <ul className="py-5 px-10">
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Test-Drive</li>
-        </ul>
+   
+<footer className="fixed bottom-0 left-0 z-20 p-4 w-full bg-slate-900 border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6">
+    <span className="text-sm text-white sm:text-center">© 2022 Stand Carrocinha. All Rights Reserved.</span>
+    <ul className="flex flex-wrap items-center mt-3 text-sm text-white  sm:mt-0">
+        <li>
+            <Link className="mr-4 hover:underline md:mr-6 " to="/about">About Us</Link>
+        </li>
+        <li>
+            <Link className="mr-4 hover:underline md:mr-6" to="/">Privacy Policy</Link>
+        </li>
+        <li>
+            <Link className="mr-4 hover:underline md:mr-6" to="/Contact">Contact</Link> 
+        </li>
+    </ul>
+</footer>
 
-        <ul className=" py-5 px-10">
-          <li>Number: XXX XXX XXX</li>
-          <li>Adress: Estrada do Caminho Nº99</li>
-          <li>Email: info@standcarrocinha.com</li>
-        </ul>
-        
-      
-
-      </div>
-      <div className="flex justify-center text-white">
-        Copyright Stand Carrocinha. All Rights Reserved
-      </div>
-    </div>
   );
 }
 export default Footer;
