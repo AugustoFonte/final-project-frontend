@@ -13,6 +13,9 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li className="px-5 py-5 font-bold text-white">
+            <Link to="/carlist">Car List</Link>
+          </li>
+          <li className="px-5 py-5 font-bold text-white">
             <Link to="/about">About Us</Link>
           </li>
           <li className="px-5 py-5 font-bold text-white">

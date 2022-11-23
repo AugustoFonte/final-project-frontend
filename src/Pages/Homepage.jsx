@@ -11,7 +11,7 @@ function Homepage() {
         <h1 class="absolute text-5xl font-bold  text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-3/4">
           Stand Carrocinha
         </h1>
-        <h2 class="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-4/4">
+        <h2 class="absolute text-4xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-4/4">
           The best opportunities are here for you
         </h2>
         
