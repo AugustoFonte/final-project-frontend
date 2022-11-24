@@ -10,7 +10,9 @@ function CarList() {
 
   return (
     <MainLayout>
-      <h1>Car List</h1>
+      <h1 className="font-bold text-4xl flex justify-center py-10 px-5 text-sky-900">
+          Car List
+        </h1>
       
       <ul>
         {cars.map((car) => (

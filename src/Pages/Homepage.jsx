@@ -8,28 +8,26 @@ function Homepage() {
     <MainLayout>
       <div class="relative">
         <img src="./banner.jpg" className="object-scale-down" alt="Banner" />
-        <h1 class="absolute text-5xl font-bold  text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-3/4">
-          Stand Carrocinha
+        <h1 class="absolute text-6xl text-sky-000 font-bold  text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-3/4 text-center ">
+        The best opportunities are here for you
         </h1>
-        <h2 class="absolute text-4xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-4/4">
-          The best opportunities are here for you
-        </h2>
+        
         
       </div>
 
-      <h2 className=" flex justify-center py-20 text-3xl font-bold">
+      <h2 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         The Brands we work
       </h2>
-      <h3 className=" flex justify-center py-20 text-3xl font-bold">
+      <h3 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         Find a Car
       </h3>
-      <h4 className=" flex justify-center py-20 text-3xl font-bold">
+      <h4 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         About us
       </h4>
-      <h5 className=" flex justify-center py-20 text-3xl font-bold">
+      <h5 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         Contact us
       </h5>
-      <Contact className=" flex justify-center" />
+      <Contact />
     </MainLayout>
   );
 }
