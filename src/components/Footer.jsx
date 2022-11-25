@@ -11,7 +11,7 @@ function Footer() {
             <Link className="mr-4 hover:underline md:mr-6 " to="/about">About Us</Link>
         </li>
         <li>
-            <Link className="mr-4 hover:underline md:mr-6" to="/">Privacy Policy</Link>
+            <Link className="mr-4 hover:underline md:mr-6" to="/privacypolicy">Privacy Policy</Link>
         </li>
         <li>
             <Link className="mr-4 hover:underline md:mr-6" to="/Contact">Contact</Link> 

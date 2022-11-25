@@ -21,12 +21,10 @@ function Homepage() {
       <h3 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         Find a Car
       </h3>
+      
       <h4 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
-        About us
-      </h4>
-      <h5 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         Contact us
-      </h5>
+      </h4>
       <Contact />
     </MainLayout>
   );

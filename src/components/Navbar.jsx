@@ -6,19 +6,19 @@ function Navbar() {
     <nav className="bg-slate-900">
       <div className=" container flex">
         <Link className=" flex justify-start py-5 px-5 text-white" to="/">
-          LOGO
+          <img src="./logo.png" alt="" className="w-32" />
         </Link>
         <ul className="flex">
-          <li className="px-5 py-5 font-bold text-white">
+          <li className="px-5 py-10 font-bold text-white text-xl">
             <Link to="/">Home</Link>
           </li>
-          <li className="px-5 py-5 font-bold text-white">
+          <li className="px-5 py-10 font-bold text-white text-xl">
             <Link to="/carlist">Car List</Link>
           </li>
-          <li className="px-5 py-5 font-bold text-white">
-            <Link to="/about">About Us</Link>
+          <li className="px-5 py-10 font-bold text-white text-xl">
+            <Link to="/about">About</Link>
           </li>
-          <li className="px-5 py-5 font-bold text-white">
+          <li className="px-5 py-10 font-bold text-white text-xl">
             <Link to="/Contact">Contact</Link>
           </li>
         </ul>

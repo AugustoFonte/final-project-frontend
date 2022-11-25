@@ -21,7 +21,7 @@ function Contact() {
                 <input className="border-2 rounded-lg w-60" type="email" name="" id="" />
             <p>Message</p>
             <input className="border-2 text-sm py-10 px-3 rounded-lg w-60" type="text" />
-                <button className="flex border-2 rounded-lg py-1 px-1 w-60 text-center bg-sky-700 text" type="submit">Send</button>
+                <button className="flex border-2 rounded-lg py-1 px-1 w-60 text-center bg-sky-700 " type="submit">Send</button>
                 
         </form>
         

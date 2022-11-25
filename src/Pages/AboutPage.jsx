@@ -9,8 +9,9 @@ function AboutPage() {
           About us
         </h1>
       </div>
-      <div className="grid p-10 container mx-auto grid-cols-2 gap-10">
-        <p className="p-5 text-lg">
+      <div className="grid p-10 flex container mx-auto grid-cols-2 gap-5">
+      <img className="rounded-lg" src="/aboutimg.jpg" alt="Banner" />
+        <p className="p-5 text-lg w-4/5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
           nostrum consectetur, officia at esse deserunt ipsa. Corporis,
           laudantium? Voluptas consectetur, asperiores aliquam rerum vero
@@ -25,7 +26,7 @@ function AboutPage() {
         </p>
       
       
-        <img className="object-scale-down rounded-lg" src="/aboutimg.jpg" alt="Banner" />
+        
       </div>
     </MainLayout>
   );

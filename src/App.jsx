@@ -7,6 +7,7 @@ import AboutPage from './Pages/AboutPage';
 import Contact from './Pages/ContactPage';
 import CarList from './Pages/CarList';
 import SingleCarPage from './Pages/SingleCarPage';
+import PrivacyPolicy from './Pages/PrivacyPolicy'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/carlist" element={<CarList />} />
         <Route path="/carlist/:numerodechassi" element={<SingleCarPage />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   )
