@@ -2,6 +2,7 @@ import React from "react";
 
 import MainLayout from "../layouts/MainLayout";
 import Contact from "../components/Contact";
+import CarList from "../components/CarList";
 
 function Homepage() {
   return (
@@ -9,10 +10,8 @@ function Homepage() {
       <div class="relative">
         <img src="./banner.jpg" className="object-scale-down" alt="Banner" />
         <h1 class="absolute text-6xl text-sky-000 font-bold  text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-3/4 text-center ">
-        The best opportunities are here for you
+          The best opportunities are here for you
         </h1>
-        
-        
       </div>
 
       <h2 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
@@ -21,7 +20,7 @@ function Homepage() {
       <h3 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         Find a Car
       </h3>
-      
+      <CarList/>
       <h4 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         Contact us
       </h4>
