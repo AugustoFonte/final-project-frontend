@@ -14,12 +14,12 @@ function CarCard(props) {
 
         <div className="px-5 pb-5">
           <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            {props.marca}
+            {props.marca} {props.modelo} {props.ano}
           </h5>
 
           <div className="flex items-center justify-between">
             <span className="text-3xl font-bold text-gray-900 dark:text-white">
-              XXXXX€
+              {props.preco}€
             </span>
             <Link
               to={`/carlist/${props.numerodechassi}`}
@@ -38,5 +38,8 @@ CarCard.propTypes = {
   marca: PropTypes.string.isRequired,
   imagens: PropTypes.string.isRequired,
   numerodechassi: PropTypes.string.isRequired,
+  preco: PropTypes.string.isRequired,
+  modelo: PropTypes.string.isRequired,
+  ano: PropTypes.string.isRequired,
 };
 export default CarCard;
