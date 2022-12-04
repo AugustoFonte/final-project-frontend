@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/carlist" element={<CarListPage />} />
-        <Route path="/carlist/:numerodechassi" element={<SingleCarPage />} />
+        <Route path="/carlist/:numerodechassiSlug" element={<SingleCarPage />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
