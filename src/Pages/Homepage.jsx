@@ -3,6 +3,7 @@ import React from "react";
 import MainLayout from "../layouts/MainLayout";
 import Contact from "../components/Contact";
 import CarList from "../components/CarList";
+import Brands from "../components/Brands";
 
 function Homepage() {
   return (
@@ -17,6 +18,9 @@ function Homepage() {
       <h2 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         The Brands we work
       </h2>
+      <div>
+        <Brands />
+      </div>
       <h3 className=" flex justify-center py-20 text-4xl font-bold text-sky-900">
         Our last entries
       </h3>
