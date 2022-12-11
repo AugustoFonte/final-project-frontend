@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import CarsData from "../data/cars.json";
-
+import Testdrive from "../components/Testdrive";
 import MainLayout from "../layouts/MainLayout";
 
 function SingleCarPage() {
@@ -25,7 +25,7 @@ function SingleCarPage() {
             alt="car image"
           />
         </div>
-        <div>form test drive</div>
+        <div><Testdrive/></div>
       </div>
       <div className="py-10 grid grind-cols-2 text-lg">
         <div>
