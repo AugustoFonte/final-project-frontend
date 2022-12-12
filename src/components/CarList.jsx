@@ -6,9 +6,9 @@ import cars from "../data/cars.json";
 
 function CarList() {
   return (
-    <div>
+    <div className="flex justify-evenly">
 
-      <ul className="flex p-5 gap-5  justify-center">
+      <ul className="flex p-5 gap-5">
         {cars.map((car) => (
           <li className="w-1/4" key={car.marca}>
             <CarCard
