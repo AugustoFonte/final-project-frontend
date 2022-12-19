@@ -1,0 +1,113 @@
+[
+  {
+    "marca": "Mercedes",
+    "numerodechassi": "Mercedes1",
+    "imagemmarca": "https://www.carlogos.org/logo/Mercedes-Benz-logo-2011-1920x1080.png",
+    "modelo": "Benz G 300 w463",
+    "preco": 36500,
+    "tipodechassi": "Suv",
+    "estado": "Usado",
+    "anofabrico": "1992",
+    "numerokm": 367474,
+    "potencia": 112,
+    "capacidade": 5204,
+    "combustivel": "Diesel",
+    "corexterior": "Dark Green",
+    "tranmissao": "Manual",
+    "portas": 5,
+    "imagens": 
+      "https://cdn.easysite.pt/pub/6532/861118/EDN_NCAUTO_13683709-0.jpg",
+      
+    "sensores": "n/a",
+    "seguranca": [
+      "ABS",
+      "Airbag do passageiro",
+      "Controlo de estabilidade (ESP)",
+      "Airbag do condutor"
+    ],
+    "tipofarois": "Xenon & Led"
+  },
+  {
+    "marca": "Mitsubishi",
+    "numerodechassi": "Mitsubishi1",
+    "imagemmarca": "https://www.carlogos.org/logo/Mitsubishi-logo-2000x2500.png",
+    "modelo": "Evolution VIII",
+    "preco": 52500,
+    "tipodechassi": "Sedan",
+    "estado": "Usado",
+    "anofabrico": "2006",
+    "numerokm": 51901,
+    "potencia": 256,
+    "capacidade": 5204,
+    "combustivel": "Gasoline",
+    "corexterior": "Silver Gray",
+    "tranmissao": "Manual",
+    "portas": 5,
+    "imagens":
+      "https://cdn.easysite.pt/pub/6532/804978/EDN_NCAUTO_20319525-0.jpg",
+      
+    "sensores": "n/a",
+    "seguranca": [
+      "ABS",
+      "Airbag do passageiro",
+      "Controlo de estabilidade (ESP)",
+      "Airbag do condutor"
+    ],
+    "tipofarois": "Led"
+  },
+  {
+    "marca": "Ford",
+    "numerodechassi": "Ford1",
+    "imagemmarca": "https://www.carlogos.org/car-logos/ford-logo-2017.png",
+    "modelo": "MK2 2.5 Ultimate",
+    "preco": 90000,
+    "tipodechassi": "Coupe",
+    "estado": "Usado",
+    "anofabrico": "1992",
+    "numerokm": 19815,
+    "potencia": 350,
+    "capacidade": 5204,
+    "combustivel": "Gasoline",
+    "corexterior": "White",
+    "tranmissao": "Manual",
+    "portas": 2,
+    "imagens": 
+      "https://cdn.easysite.pt/pub/6532/976183/EDN_NCAUTO_21304482-0.jpg",
+    
+    "sensores": "n/a",
+    "seguranca": [
+      "ABS",
+      "Airbag do passageiro",
+      "Controlo de estabilidade (ESP)",
+      "Airbag do condutor"
+    ],
+    "tipofarois": "No Info"
+  },
+  {
+    "marca": "Renault",
+    "numerodechassi": "Renault1",
+    "imagemmarca": "https://logosmarcas.net/wp-content/uploads/2021/04/Renault-Logo-650x366.png",
+    "modelo": "Clio 1.8 16v",
+    "preco": 14000,
+    "tipodechassi": "Citadino",
+    "estado": "Usado",
+    "anofabrico": "1995",
+    "numerokm": 131107,
+    "potencia": 138,
+    "capacidade": 1764,
+    "combustivel": "Gasoline",
+    "corexterior": "Gray",
+    "tranmissao": "Manual",
+    "portas": 3,
+    "imagens":"https://cdn.easysite.pt/pub/6532/957112/EDN_NCAUTO_18389994-0.jpg", 
+    "sensores": "n/a",
+    "seguranca": [
+      "ABS",
+      "Airbag do passageiro",
+      "Controlo de estabilidade (ESP)",
+      "Airbag do condutor"
+    ],
+    "tipofarois": "No Info"
+  }
+  
+]
